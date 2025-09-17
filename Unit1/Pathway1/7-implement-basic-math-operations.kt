@@ -24,3 +24,18 @@ fun main() {
 fun add(num1: Int, num2: Int): Int {
     return num1 + num2
 }
+
+//3
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+
+    val result = subtract(firstNumber, secondNumber)
+
+    println("$firstNumber - $secondNumber = $result")
+}
+
+fun subtract(num1: Int, num2: Int): Int {
+    return num1 - num2
+}
