@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <!-- Vịnh Hạ Long -->
+    <string name="halong_title">Vịnh Hạ Long</string>
+    <string name="halong_fact">
+        Nằm ở Quảng Ninh, được UNESCO công nhận là Di sản thiên nhiên thế giới (1994, 2000).
+        Có hơn 1.900 hòn đảo lớn nhỏ chủ yếu là đá vôi, và từng là bối cảnh của phim Kong: Skull Island (2017).
+    </string>
+
+    <!-- Hang Sơn Đoòng -->
+    <string name="sondoong_title">Hang Sơn Đoòng</string>
+    <string name="sondoong_fact">
+        Thuộc Vườn quốc gia Phong Nha – Kẻ Bàng, Quảng Bình.
+        Là hang động tự nhiên lớn nhất thế giới (dài hơn 9 km, cao tới 200 m), có hệ sinh thái riêng với rừng nguyên sinh và sông ngầm bên trong.
+    </string>
+
+    <!-- Đảo Phú Quốc -->
+    <string name="phuquoc_title">Đảo Phú Quốc</string>
+    <string name="phuquoc_fact">
+        Hòn đảo lớn nhất Việt Nam, thuộc tỉnh Kiên Giang, còn được gọi là “Đảo Ngọc”.
+        Nổi tiếng với Bãi Sao, Bãi Dài cùng đặc sản nước mắm và hồ tiêu.
+    </string>
+
+    <!-- Hồ Ba Bể -->
+    <string name="babe_title">Hồ Ba Bể</string>
+    <string name="babe_fact">
+        Thuộc tỉnh Bắc Kạn, nằm trong Vườn quốc gia Ba Bể.
+        Là hồ nước ngọt tự nhiên lớn nhất Việt Nam (500 ha), hình thành cách đây hơn 200 triệu năm.
+    </string>
+
+    <!-- Dãy Hoàng Liên Sơn -->
+    <string name="hoanglien_title">Dãy Hoàng Liên Sơn</string>
+    <string name="hoanglien_fact">
+        Trải dài qua các tỉnh Lào Cai, Lai Châu, Yên Bái.
+        Nổi bật với Fansipan (3.147 m), “Nóc nhà Đông Dương”, và hệ sinh thái phong phú với nhiều loài quý hiếm.
+    </string>
+</resources>
