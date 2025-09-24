@@ -11,6 +11,13 @@ data class Event (
     var durationInMinutes: Int
 )
 
+val Event.durationOfEvent: String
+    get() = if (this.durationInMinutes < 60) {
+        "short"
+    } else {
+        "long"
+    }
+
 fun main() {
     val event = Event(
         title = "Study Kotlin", 
@@ -39,4 +46,5 @@ fun main() {
     }
     
     println("Last event of the day: ${events.last().title}")
+    println("Duration of first event of the day: ${events[0].durationOfEvent}")
 }
