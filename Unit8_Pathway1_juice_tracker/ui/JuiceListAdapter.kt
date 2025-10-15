@@ -137,12 +137,6 @@ fun DeleteButton(onDelete: () -> Unit, modifier: Modifier = Modifier) {
     }
 }
 
-/**
- * Custom icon for juice which is able to adjust for Dark Mode.
- * contentDescription for Box is added through semantics to support better accessibility.
- * Icons' contentDescription are nullified as its meaning has been explained by
- * the box's contentDescription
- */
 @Composable
 fun JuiceIcon(color: String, modifier: Modifier = Modifier) {
     val colorLabelMap = JuiceColor.values().associateBy { stringResource(it.label) }
@@ -168,13 +162,11 @@ fun JuiceIcon(color: String, modifier: Modifier = Modifier) {
 fun RatingDisplay(rating: Int, modifier: Modifier = Modifier) {
     val displayDescription = pluralStringResource(R.plurals.number_of_stars, count = rating)
     Row(
-        // Content description is added here to support accessibility
         modifier.semantics {
             contentDescription = displayDescription
         }
     ) {
         repeat(rating) {
-            // Star [contentDescription] is null as the image is for illustrative purpose
             Image(
                 modifier = Modifier.size(32.dp),
                 painter = painterResource(R.drawable.star),

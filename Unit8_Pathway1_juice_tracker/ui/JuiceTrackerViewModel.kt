@@ -26,9 +26,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-/**
- * View Model which maintain states for [JuiceTrackerApp]
- */
 class JuiceTrackerViewModel(private val juiceRepository: JuiceRepository) : ViewModel() {
     private val emptyJuice = Juice(0, "", "", JuiceColor.Red.name, 3)
     private val _currentJuiceStream = MutableStateFlow(emptyJuice)

@@ -22,10 +22,6 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 
-/**
- * A composable which uses AndroidView to render AdView.
- * Showing a banner test ad
- */
 @Composable
 fun AdBanner(modifier: Modifier = Modifier) {
     AndroidView(

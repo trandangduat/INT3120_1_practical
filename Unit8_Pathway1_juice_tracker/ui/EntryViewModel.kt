@@ -22,10 +22,6 @@ import com.example.juicetracker.data.JuiceRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
-/**
- * ViewModel to retrieve, add, edit or delete a juice entry
- * from the [JuiceRepository]'s data source.
- */
 class EntryViewModel(private val juiceRepository: JuiceRepository) : ViewModel() {
 
     fun getJuiceStream(id: Long): Flow<Juice?> = juiceRepository.getJuiceStream(id)
